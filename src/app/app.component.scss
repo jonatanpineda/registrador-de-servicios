@@ -1,0 +1,89 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+
+  .content {
+    flex: 1 0 auto;
+    margin-top: 64px;
+    overflow: hidden;
+  }
+
+}
+
+.big-input {
+  width: 100%;
+  transition: all 0.5s;
+  display: flex;
+  padding: 10px 10px 10px 20px;
+
+  input {
+    flex-grow: 1;
+    border: 0;
+    font-size: 20px;
+    min-width: 100px;
+  }
+
+  input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: transparent;
+
+  }
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+}
+
+mat-card {
+  margin: 0 0 10px 0;
+  cursor: pointer;
+}
+
+.mat-fab {
+  .fa-icon {
+    position: relative;
+    top: 4px;
+  }
+}
+
+.title-done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.add {
+  margin: 20px auto 0;
+  display: block;
+  outline: none;
+}
+
+.col-md-6 {
+  margin-bottom: 20px;
+}
+
+.button-editor {
+  outline: none;
+}
+
+.services-filter {
+  float: right;
+  position: relative;
+  top: -5px;
+  left: 10px;
+  margin-left: -10px;
+  outline: none;
+}
+
+
+.services-filter-info {
+  float: right;
+  font-weight: normal;
+  outline: none;
+}
